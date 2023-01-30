@@ -55,5 +55,5 @@ for center_y, center_x, radius in zip(cy_outer, cx_outer, radii_outer):
 plt.imshow(spdcring_mtx,'jet')
 plt.colorbar()
 #plt.clim()
-plt.savefig('spdc_ring.png',dpi=300)
+plt.savefig('spdc_ring.png',dpi=300,bbox_inches='tight')
 plt.clf()
